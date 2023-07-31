@@ -1,0 +1,19 @@
+Display 
+/prodcut => Display all products Page 
+loading UI
+  Display all components within the grid
+    Product card
+      Image ,Title Price,button{buy,add}
+/product/1 => single product Page
+loading UI
+  Display the component with the description
+    Product card
+      Image ,Title Price,button{buy,add}
+
+
+
+
+Filter Categories
+/product/sort => sort Products Page
+/product/category => Categories Page
+/product/limit?=2 =>Limit Page Page
