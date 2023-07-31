@@ -6,9 +6,11 @@ export default function ProductTable({data}) {
     <div className="grid md:grid-cols-3 gap-3 sm:grid-cols-1">
         {data.map((data)=>{
           return(
-             <Link href={`product/${data.id}`}>
+             <div key={data.id}>
+              <Link href={`product/${data.id}`}>
               <Product product={data}/>
              </Link>
+             </div>
           )
         })}
   </div>
