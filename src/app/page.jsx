@@ -8,7 +8,7 @@ async function getData()
     throw new Error('Failed to fetch data');
   }
 1
-  return res.json();
+  return await res.json();
 }
 export default async function Home() {
   const data = await getData();
